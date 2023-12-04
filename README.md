@@ -44,6 +44,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 2. Docker-compose
 
   Este teste utiliza docker-compose para configurar as dependências necessárias para rodar a aplicação.
+  É necessário também ter instalado o Docker em sua máquina antes de instalar o docker-compose.
 
   Caso não tenha docker-compose instalado em sua máquina, siga as instruções abaixo:
   - Abra o terminal e execute os comandos:
@@ -52,4 +53,11 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   - `docker-compose --version`
   - Ao final deverá aparecer uma mensagem semelhante a:
   - `docker-compose version 2.5.0, build unknown`
-  
+
+  Caso não tenha sido configurado, utilize o comando:
+  - `docker-compose up -d`
+
+3. Node.js
+
+  Esta aplicação utiliza node.js e a ORM Sequelize.js para se comunicar com o banco de dados.
+  Se faz necessário ter a versão node 16 ou superior instalada na máquina.
